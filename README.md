@@ -1,17 +1,21 @@
+# Task-ly
 
-# Taskify
+Task-ly is a productivity application designed to help users manage their tasks efficiently. Currently, the project is in its early stages, featuring a front-end user interface with a hero section. Please note that users cannot sign in yet as the backend functionality is still in development.
 
-- Create a Task Management Application with drag-drop functionality between the category.
+![Hero Section Image](Task-ly.png) <!-- Replace with the actual path to your image -->
 
-- you can avoid time, and type of TODO (easy, medium, hard).
+## Features
 
-- The UI should resemble the example shown below..
+- **Hero Section**: A visually appealing introduction to the application.
+- **Sign In Page**: UI available, but sign-in functionality is not yet implemented.
 
-![Image](https://utfs.io/f/c63f4dc5-6833-4c65-9b07-e1421d833ee2-ng18dw.png)
+The backend development is on the roadmap and will be added soon to enhance functionality. Stay tuned for updates!
 
+## Getting Started
 
+To get started with the Task-ly application, clone the repository and install the necessary dependencies.
 
-### Don't copy UI as it is, only take reference from it.
-
-
-
+```bash
+git clone https://github.com/Gurvinder-Singh02/Task-ly.git
+cd Task-ly
+# Add installation commands here
