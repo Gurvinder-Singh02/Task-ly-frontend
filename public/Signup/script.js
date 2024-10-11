@@ -15,3 +15,27 @@ function togglePass() {
         eyeIcon.src = './eye-close.svg'; // Update the icon to a closed eye
     }
 }
+
+const email = document.getElementById('email')
+const firstName = document.getElementById('f_name')
+const lastName = document.getElementById('l_name')
+const password = document.getElementById('password')
+
+const submit = document.querySelector('.btn')
+
+console.log(submit)
+
+submit.addEventListener('click', async (e) => {
+
+    e.preventDefault();
+
+   const res =  await axios.post("http://localhost:3000/api/v1/user/signup", {
+        email : email.value , password : password.value, firstName : firstName.value, lastName : lastName.value
+    });
+
+    console.log(res)
+
+    alert('singuppppp')
+})
+
+console.log(email.value, firstName.value, lastName.value)
