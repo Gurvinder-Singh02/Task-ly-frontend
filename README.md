@@ -2,6 +2,8 @@
 
 Task-ly is a productivity application designed to help users manage their tasks efficiently. Currently, the project is in its early stages, featuring a front-end user interface with a hero section. Please note that users cannot sign in yet as the backend functionality is still in development.
 
+backend out now https://github.com/Gurvinder-Singh02/TaskLy
+
 ![Hero Section Image](Task-ly.png) <!-- Replace with the actual path to your image -->
 
 ## Features
